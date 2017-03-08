@@ -1,0 +1,18 @@
+{
+  "name" : "toml-glib-tests",
+  "version" : "0.1.0",
+  "license" : "LGPLv3",
+  "author" : "Baptiste Gelez <baptiste@gelez.xyz>",
+  "dependencies": {
+    "toml-glib": "^0.1.0",
+    "gee-0.8": "*"
+  },
+  "scripts": {
+    "clean": [
+      "rm -f *.c && rm -f *.gcda && rm -f *.gcno"
+    ]
+  },
+  "compiler-params": [
+    "-X", "-w", "-X", "--coverage", "-g", "--save-temps"
+  ]
+}

@@ -1,0 +1,8 @@
+build/*
+tests/build/*
+
+# Code coverage
+*.c
+*.gcda
+*.gcno
+cov/*
