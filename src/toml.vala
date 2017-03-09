@@ -6,7 +6,8 @@ namespace Toml {
     public errordomain TomlError {
         SYNTAX_ERROR,
         INVALID_ESCAPE_SEQUENCE,
-        PATH
+        PATH,
+        SERIALIZATION
     }
 
     [Version (experimental = true)]
