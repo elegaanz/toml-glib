@@ -11,5 +11,7 @@ void main (string[] args) {
 
     test_parser ();
 
+    test_writer ();
+
     Test.run ();
 }

@@ -19,7 +19,7 @@ namespace Toml {
     */
     public class Element : Object {
 
-        private Value value;
+        internal Value value;
 
         /**
         * The {@link GLib.Type} stored by this element.

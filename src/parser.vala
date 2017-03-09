@@ -162,6 +162,7 @@ namespace Toml {
         * Parse a TOML table.
         */
         private void parse_table (Element table) throws TomlError {
+            table.inline = false;
             string comment = "";
             while (this.accept (Category.HASH)) {
                 comment += this.current.lexeme;
