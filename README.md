@@ -38,3 +38,11 @@ You should get this:
 ```
 Hello, world!
 ```
+
+## Building
+
+```
+mkdir build && cd build
+meson ..
+ninja
+```
