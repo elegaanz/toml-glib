@@ -1,4 +1,4 @@
-# TOML GLib
+# TOML GLib [![Build Status](https://travis-ci.org/Bat41/toml-glib.svg?branch=master)](https://travis-ci.org/Bat41/toml-glib)
 
 A small library to parse TOML.
 
