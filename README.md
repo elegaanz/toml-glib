@@ -30,7 +30,7 @@ name = "world"
 Compile with:
 
 ```
-valac *.vala --pkg toml-glib
+valac --pkg gee-0.8 --pkg gio-2.0 --pkg toml-glib0.1 *.vala -X -ltoml-glib0.1
 ```
 
 You should get this:
@@ -39,10 +39,21 @@ You should get this:
 Hello, world!
 ```
 
-## Building
+## Building and Installation
 
-```
-mkdir build && cd build
-meson ..
-ninja
-```
+You'll need the following dependencies:
+
+* libgee-0.8-dev
+* libglib2.0-dev
+* meson
+* valac
+
+Run `meson` to configure the build environment and then `ninja` to build
+
+    meson build --prefix=/usr
+    cd build
+    ninja
+
+To install, use `ninja install`
+
+    sudo ninja install
