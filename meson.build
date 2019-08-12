@@ -1,6 +1,6 @@
 project('toml-glib', 'vala', 'c',
         version: '0.1.0',
-        license: 'MIT')
+        license: 'GPL-3.0')
 
 api_version = '0.1'
 
