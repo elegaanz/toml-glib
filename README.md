@@ -30,7 +30,7 @@ name = "world"
 Compile with:
 
 ```
-valac --pkg gee-0.8 --pkg gio-2.0 --pkg toml-glib0.1 *.vala -X -ltoml-glib0.1
+valac --pkg toml-glib *.vala
 ```
 
 You should get this:

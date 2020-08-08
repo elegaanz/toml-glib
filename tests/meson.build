@@ -5,6 +5,6 @@ test_sources = files('lexer.vala',
 
 test('tests',
      executable('tests', test_sources,
-                dependencies: [glib, gobject, gio, gee, toml]),
+                dependencies: toml),
      env: ['G_TEST_SRCDIR=' + meson.current_source_dir()]
 )
